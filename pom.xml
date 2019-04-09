@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tomoncle</groupId>
+    <artifactId>design-patterns-for-java</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <!--5种建造型模式-->
+        <module>creational-pattern-factory-method</module>
+        <module>creational-pattern-abstract-factory</module>
+        <module>creational-pattern-singleton</module>
+        <module>creational-pattern-builder</module>
+        <module>creational-pattern-prototype</module>
+        <!--7种结构型模式-->
+        <module>structural-pattern-adapter</module>
+        <module>structural-pattern-decorator</module>
+        <module>structural-pattern-proxy</module>
+        <module>structural-pattern-facade</module>
+        <module>structural-pattern-bridge</module>
+        <module>structural-pattern-composite</module>
+        <module>structural-pattern-flyweight</module>
+        <!--11种行为型模式-->
+        <module>behavior-pattern-strategy</module>
+        <module>behavior-pattern-template</module>
+        <module>behavior-pattern-observer</module>
+        <module>behavior-pattern-iterator</module>
+        <module>behavior-pattern-chain-of-responsibility</module>
+        <module>behavior-pattern-command</module>
+        <module>behavior-pattern-memento</module>
+        <module>behavior-pattern-state</module>
+        <module>behavior-pattern-visitor</module>
+        <module>behavior-pattern-mediator</module>
+        <module>behavior-pattern-interpreter</module>
+    </modules>
+
+
+</project>
