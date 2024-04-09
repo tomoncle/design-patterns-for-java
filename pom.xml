@@ -43,6 +43,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.32</version>
             <!--provided表明该包只在编译和测试的时候用-->
             <scope>provided</scope>
         </dependency>
